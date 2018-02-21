@@ -1,31 +1,32 @@
+var array = [];
 class Sorter {
-  constructor() {
-    // your implementation
-  }
+    constructor() {
 
-  add(element) {
-    // your implementation
-  }
+    }
 
-  at(index) {
-    // your implementation
-  }
+    add(element) {
+        array.push(element);
+    }
 
-  get length() {
-    // your implementation
-  }
+    at(index) {
+        // your implementation
+    }
 
-  toArray() {
-    // your implementation
-  }
+    get length() {
+        return array.lenght;
+    }
 
-  sort(indices) {
-    // your implementation
-  }
+    toArray() {
+        return array;
+    }
 
-  setComparator(compareFunction) {
-    // your implementation
-  }
+    sort(indices) {
+        // your implementation
+    }
+
+    setComparator(compareFunction) {
+        // your implementation
+    }
 }
 
 module.exports = Sorter;
