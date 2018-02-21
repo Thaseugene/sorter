@@ -1,11 +1,12 @@
-var array = [];
 class Sorter {
+
     constructor() {
 
     }
 
     add(element) {
-        array.push(element);
+
+        this.array = String(element).split('');
     }
 
     at(index) {
@@ -13,11 +14,11 @@ class Sorter {
     }
 
     get length() {
-        return array.lenght;
+        return this.array.length;
     }
 
     toArray() {
-        return array;
+        return this.array;
     }
 
     sort(indices) {
