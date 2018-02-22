@@ -1,16 +1,17 @@
 class Sorter {
 
     constructor() {
-
+        this.array = [];
     }
 
     add(element) {
 
-        this.array = String(element).split('');
+        this.array.push(element);
+
     }
 
     at(index) {
-        // your implementation
+        return this.array[index];
     }
 
     get length() {
@@ -22,7 +23,7 @@ class Sorter {
     }
 
     sort(indices) {
-        // your implementation
+        return this.array.sort();
     }
 
     setComparator(compareFunction) {
