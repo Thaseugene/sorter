@@ -38,7 +38,7 @@ class Sorter {
         for (var k = 0; k < indices.length; k++) {
             this.array[indices[k]] = this.temp_array[k];
         }
-
+this.temp_array = [];
     }
 
 
