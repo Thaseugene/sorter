@@ -32,7 +32,7 @@ class Sorter {
             this.temp_array.push(this.array[indices[i]]);
         }
         this.temp_array.sort(compareNumbers);
-        //indices.sort(compareNumbers);
+        indices.sort(compareNumbers);
 
         function compareNumbers(a, b) { return a - b; }
         for (var k = 0; k < indices.length; k++) {
